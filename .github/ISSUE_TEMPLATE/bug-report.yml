@@ -1,0 +1,29 @@
+name: Bug report
+description: Something in the listing or a skill does not work
+title: "[bug] "
+labels: ["bug"]
+body:
+  - type: dropdown
+    id: where
+    attributes:
+      label: Where
+      options:
+        - Skills listing page
+        - A skill text
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: What happened, and what you expected
+      description: Include the steps, and the browser or assistant used.
+    validations:
+      required: true
+  - type: checkboxes
+    id: safe
+    attributes:
+      label: Before sending
+      options:
+        - label: This issue contains no passwords, keys, or private data.
+          required: true

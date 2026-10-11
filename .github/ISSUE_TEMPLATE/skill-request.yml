@@ -1,0 +1,29 @@
+name: Skill request
+description: Ask for a new one-chat skill
+title: "[skill] "
+labels: ["skill"]
+body:
+  - type: textarea
+    id: job
+    attributes:
+      label: What should the skill do in one chat?
+      description: One job, in a sentence or two.
+    validations:
+      required: true
+  - type: textarea
+    id: example
+    attributes:
+      label: Example of the output you want
+      description: A short sample of the reply, or the card it should produce.
+  - type: input
+    id: assistant
+    attributes:
+      label: Where you use Claude
+      placeholder: web, desktop, or mobile
+  - type: checkboxes
+    id: safe
+    attributes:
+      label: Before sending
+      options:
+        - label: This issue contains no passwords, keys, or private data.
+          required: true

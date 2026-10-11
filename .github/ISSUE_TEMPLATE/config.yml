@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: The AI Work Log notebook
+    url: https://tessarinseve.pythonanywhere.com
+    about: Questions about the paper book itself.
