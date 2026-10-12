@@ -8,7 +8,7 @@ Browse and copy them at **<https://sevehub.github.io/claude-chat-skills/>**.
 
 | Skill | What it does | Text |
 |---|---|---|
-| `ai-work-log` | Turns a chat into a short card (title, goals status, takeaways, signed findings) for the [AI Work Log](https://www.amazon.com/dp/XXXXXXXXXX) paper logbook, exports cards to Logseq markdown, and builds a weekly tally. | [ai-work-log.txt](https://sevehub.github.io/claude-chat-skills/skills/ai-work-log.txt) |
+| `ai-work-log` | Turns a chat into a short card (title, goals status, takeaways, signed findings) for the [AI Work Log](https://www.amazon.com/dp/B0HMNZ53ZZ) paper logbook, exports cards to Logseq markdown, and builds a weekly tally. | [ai-work-log.txt](https://sevehub.github.io/claude-chat-skills/skills/ai-work-log.txt) |
 
 More will be added over time, always as one-chat skills.
 
